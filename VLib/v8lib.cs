@@ -10,7 +10,7 @@ namespace VLib
   /// 
   /// </summary>
   [ComVisible(true)]
-  [Guid("FEA43F91-4B94-4A66-A132-FC509302221C")]
+  [Guid("9980DE0D-B0FC-4334-9F15-1404F13D110D")]
   internal interface IWrapper
   
   {
@@ -29,7 +29,7 @@ namespace VLib
   /// </summary>
   [ComVisible(true)]
   [
-    Guid("47559C61-F244-4EDB-B8A8-B656C790E742"),
+    Guid("10C32A08-FB4D-467A-8E0C-B0DC3ADFF84F"),
     InterfaceType(ComInterfaceType.InterfaceIsIDispatch)
   ]
   public interface IMyEvents { }
@@ -41,7 +41,7 @@ namespace VLib
   [ComVisible(true)]
   [ProgId("Wrapper")]
   [ClassInterface(ClassInterfaceType.AutoDispatch)]
-  [Guid("991290EF-D246-478E-9724-FFABDB368D2E")]
+  [Guid("74C4FBD7-3560-4F9C-B4FC-EE9003896F60")]
   public class Wrapper: IWrapper
   {
     // /// <summary>
