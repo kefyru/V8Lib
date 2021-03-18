@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-// [assembly: ComVisible(true)]
+[assembly: ComVisible(true)]
 
-namespace V8Lib
+namespace VLib
 
 {
   /// <summary>
