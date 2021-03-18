@@ -11,7 +11,7 @@ namespace V8Lib
   /// </summary>
   [ComVisible(true)]
   [Guid("FEA43F91-4B94-4A66-A132-FC509302221C")]
-  internal interface IDispatcher
+  internal interface IWrapper
   
   {
     /// <summary>
@@ -39,18 +39,18 @@ namespace V8Lib
   /// 
   /// </summary>
   [ComVisible(true)]
-  [ProgId("Dispatcher")]
+  [ProgId("Wrapper")]
   [ClassInterface(ClassInterfaceType.AutoDispatch)]
   [Guid("991290EF-D246-478E-9724-FFABDB368D2E")]
-  public class Dispatcher: IDispatcher
+  public class Wrapper: IWrapper
   {
-    /// <summary>
-    /// Создать новый объект заданного типа
-    /// </summary>
-    /// <param name="имяТипа">Тип: строка, имя типа создаваемого объекта</param>
-    /// <returns>Объект указанного типа</returns>
-    [ComVisible(true)]
-    public object Создать(string имяТипа) => Create(имяТипа);
+    // /// <summary>
+    // /// Создать новый объект заданного типа
+    // /// </summary>
+    // /// <param name="имяТипа">Тип: строка, имя типа создаваемого объекта</param>
+    // /// <returns>Объект указанного типа</returns>
+    // [ComVisible(true)]
+    // public object Создать(string имяТипа) => Create(имяТипа);
 
     /// <summary>
     /// Create new object of type
