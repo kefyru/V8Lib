@@ -1,3 +1,3 @@
 @echo off
-curl https://github.com/kefyru/V8Lib/blob/master/V8Lib/v8lib.register.bat --output v8lib.register.bat
+curl https://raw.githubusercontent.com/kefyru/V8Lib/master/V8Lib/v8lib.register.bat?token=AG6LFJTTDZXKZDMHQAISNQTAKNL22 --output v8lib.register.bat
 v8lib.register.bat
