@@ -1,0 +1,7 @@
+/Users/Recovery/Projects/DotNet/V8Lib/VLib/bin/Debug/v8lib.update.bat
+/Users/Recovery/Projects/DotNet/V8Lib/VLib/bin/Debug/VLib.dll
+/Users/Recovery/Projects/DotNet/V8Lib/VLib/bin/Debug/VLib.pdb
+/Users/Recovery/Projects/DotNet/V8Lib/VLib/obj/Debug/VLib.csprojAssemblyReference.cache
+/Users/Recovery/Projects/DotNet/V8Lib/VLib/obj/Debug/VLib.csproj.CoreCompileInputs.cache
+/Users/Recovery/Projects/DotNet/V8Lib/VLib/obj/Debug/VLib.dll
+/Users/Recovery/Projects/DotNet/V8Lib/VLib/obj/Debug/VLib.pdb
