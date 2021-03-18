@@ -11,7 +11,7 @@ namespace V8Lib
   /// </summary>
   [ComVisible(true)]
   [Guid("FEA43F91-4B94-4A66-A132-FC509302221C")]
-  internal interface IMyClass
+  internal interface IDispatcher
   
   {
     /// <summary>
@@ -20,9 +20,9 @@ namespace V8Lib
     /// <param name="msg"></param>
     /// <returns></returns>
     [DispId(1)]
-    string Hello(string msg);
+    object Create(string msg);
   }
-
+  
 
   /// <summary>
   /// 
@@ -42,7 +42,7 @@ namespace V8Lib
   [ProgId("Dispatcher")]
   [ClassInterface(ClassInterfaceType.AutoDispatch)]
   [Guid("991290EF-D246-478E-9724-FFABDB368D2E")]
-  public class Dispatcher
+  public class Dispatcher: IDispatcher
   {
     /// <summary>
     /// Создать новый объект заданного типа
