@@ -45,6 +45,7 @@
       <Folder Include="ToDeploy" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="v8lib.register.bat" />
       <Content Include="v8lib.update.bat">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
