@@ -6,33 +6,33 @@ using System.Runtime.InteropServices;
 namespace V8Lib
 
 {
-  // /// <summary>
-  // /// 
-  // /// </summary>
-  // [ComVisible(true)]
-  // [Guid()]
-  // internal interface IMyClass
-  //
-  // {
-  //   /// <summary>
-  //   /// 
-  //   /// </summary>
-  //   /// <param name="msg"></param>
-  //   /// <returns></returns>
-  //   [DispId(1)]
-  //   string Hello(string msg);
-  // }
+  /// <summary>
+  /// 
+  /// </summary>
+  [ComVisible(true)]
+  [Guid("FEA43F91-4B94-4A66-A132-FC509302221C")]
+  internal interface IMyClass
+  
+  {
+    /// <summary>
+    /// 
+    /// </summary>
+    /// <param name="msg"></param>
+    /// <returns></returns>
+    [DispId(1)]
+    string Hello(string msg);
+  }
 
 
-  // /// <summary>
-  // /// 
-  // /// </summary>
-  // [ComVisible(true)]
-  // [
-  //   Guid(),
-  //   InterfaceType(ComInterfaceType.InterfaceIsIDispatch)
-  // ]
-  // public interface IMyEvents { }
+  /// <summary>
+  /// 
+  /// </summary>
+  [ComVisible(true)]
+  [
+    Guid("47559C61-F244-4EDB-B8A8-B656C790E742"),
+    InterfaceType(ComInterfaceType.InterfaceIsIDispatch)
+  ]
+  public interface IMyEvents { }
 
 
   /// <summary>
