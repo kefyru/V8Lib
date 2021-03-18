@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="cb86d2bb-7a4e-4f92-940a-c77613715a6d" name="local" url="http://localhost">
+        <fileTransfer mountedRoot="$USER_HOME$/Yandex.Disk.localized/Shared/v8lib" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
